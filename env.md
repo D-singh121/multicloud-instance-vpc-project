@@ -12,4 +12,6 @@ export ARM_TENANT_ID="your-tenant-id"
 
 
 # For GCP
+// create a service account and attach a key then download as .json formate and save at safe place because it contains sensitive credential. we need to provide the path of this file on our "gcp.tf" file.
+
 export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/keyfile.json"   # created from service account.
